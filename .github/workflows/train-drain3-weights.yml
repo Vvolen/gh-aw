@@ -1,8 +1,6 @@
 name: Train Log Pattern Weights
 
 on:
-  schedule:
-    - cron: "17 4 * * *"  # Daily at 04:00 UTC
   workflow_dispatch:
 
 permissions: {}
